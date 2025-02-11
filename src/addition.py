@@ -1,7 +1,7 @@
-def greet(name):
-    return f"Hello, {name}!"
+# test_example.py
 
-# Call the function and print the result
-name = "Alice"
-greeting = greet(name)
-print(greeting)
+def test_add():
+    assert 1 + 2 == 3
+
+def test_subtract():
+    assert 5 - 3 == 2
