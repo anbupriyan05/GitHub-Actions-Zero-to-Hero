@@ -1,9 +1,7 @@
-# app.py
-# new ones
-# This is a test commit
-def add(a, b):
-    return a + b
+def greet(name):
+    return f"Hello, {name}!"
 
-def test_add():
-    assert add(1, 2) == 3
-    assert add(1, -1) == 0
+# Call the function and print the result
+name = "Alice"
+greeting = greet(name)
+print(greeting)
